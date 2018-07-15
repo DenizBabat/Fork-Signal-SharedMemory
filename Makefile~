@@ -1,0 +1,5 @@
+all:
+	gcc -o exe main.c -lrt -lpthread
+
+clean:
+	rm exe
